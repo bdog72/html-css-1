@@ -9,20 +9,45 @@
 
 body {
   font-family: 'Roboot', sans-serif;
+  /* background-color: #228be6; */
+}
+
+header {
+  height: 20vh;
+  background-color: #228be6;
 }
 
 .container {
-  width: 700px;
-  margin: 100px auto;
+  width: 500px;
+  margin: 50px auto;
+  /* height: 40vh; */
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 a {
   color: #777;
+  margin: 10px;
 }
 
 a:link {
   text-decoration: none;
   font-size: 30px;
+}
+
+section {
+  background-color: #228be6;
+  height: 50vh;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
 }
